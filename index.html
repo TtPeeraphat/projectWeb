@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-                                  <!--=======หน้าต้อนรับ========-->
+<!--=======หน้าต้อนรับ========-->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <style>
-    *{
+    * {
       margin: 0;
     }
-    body, html {
-  height: 100%;
-}
-    .wel-but{
-      margin-left: auto;
-      margin-right: auto;
-      text-decoration: none;
-      align-items: center;
+
+    body,
+    html {
+      height: 100%;
+
     }
-    .bg-1{
+
+    .wel-but {
+      display: flex;
+    
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      
+    }
+
+    .bg-1 {
       width: 100%;
       height: 100%;
-       background-image: url(./Image/poster_3.jpg);
-       background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+      background-image: url(./Image/poster_3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
     }
   </style>
-  
-                   <!--boostrap-->
+
+  <!--boostrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-                   
+
   <!--boostrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-                   <!--=====bg-top======-->  
-    <div class="bg-1">
-        <button class="wel-but">
-          <a href="./home.html">เข้าสู่เว็บไซต์</a>
-        </button>
+  <!--=====bg-top======-->
+  <div class="bg-1">
+    <div class="wel-but">
+      <button class="wel-but but">
+        <a href="./home.html">เข้าสู่เว็บไซต์</a>
+      </button>
     </div>
-    
+  </div>
+
 </body>
 
 </html>
